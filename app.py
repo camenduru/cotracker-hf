@@ -119,4 +119,4 @@ app = gr.Interface(
     allow_flagging=False,
 
 )
-app.queue(max_size=20, concurrency_count=2).launch(debug=True)
+app.queue(max_size=20, concurrency_count=1).launch(debug=True)
