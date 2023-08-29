@@ -1,0 +1,10 @@
+einops
+timm
+tqdm
+opencv-python
+matplotlib
+moviepy
+flow_vis
+imutils
+numpy
+git+https://github.com/facebookresearch/co-tracker.git
