@@ -115,8 +115,8 @@ app = gr.Interface(
         [ paragliding, 10, 0, False, False ],
         [ paragliding_launch, 10, 0, False, False ],
     ],
-    cache_examples=False,
+    cache_examples=True,
     allow_flagging=False,
 
 )
-app.queue(max_size=20, concurrency_count=1).launch(debug=True)
+app.queue(max_size=20, concurrency_count=2).launch(debug=True)
