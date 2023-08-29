@@ -115,7 +115,7 @@ app = gr.Interface(
         [ paragliding, 10, 0, False, False ],
         [ paragliding_launch, 10, 0, False, False ],
     ],
-    cache_examples=True,
+    cache_examples=False,
     allow_flagging=False,
 
 )
